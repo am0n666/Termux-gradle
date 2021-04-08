@@ -14,8 +14,11 @@ then
         ee "\e[32mTo run gradle, run ./gradlew present in $HOME/Termux-gradle"
        exit
 else
-        ee "\e[32mJava not installed.. Cloning scripts to install JDK"
-        ee "\e[32mRe-run this script after installing JDK..."
+        echo
+        ee "\e[93mJava not installed.. Cloning scripts to install JDK"
+        echo
+        ee "\e[93mRe-run this script after installing JDK..."
+        echo
         git clone https://github.com/suhan-paradkar/java-in-termux.git
         cd java-in-termux
         chmod +x install.sh
