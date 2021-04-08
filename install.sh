@@ -19,6 +19,6 @@ else
         git clone https://github.com/suhan-paradkar/java-in-termux.git
         cd java-in-termux
         chmod +x install.sh
-        ./install.sh
+        bash install.sh
 fi
  exit
