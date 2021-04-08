@@ -7,5 +7,5 @@
 git clone https://github.com/suhan-paradkar/Termux-gradle
 cd Termux-gradle
 chmod +x install.sh
-./install.sh
+bash install.sh
 ``` 
