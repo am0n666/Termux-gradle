@@ -9,7 +9,7 @@ then
 	java --version
 	echo
         ee "\e[32mInstalling Gradle... It will take some time... Have a cup of tea..☕☕"
-        ./gradlew
+        bash gradlew
         
         ee "\e[32mTo run gradle, run ./gradlew present in $HOME/Termux-gradle"
        exit
